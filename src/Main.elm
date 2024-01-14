@@ -110,7 +110,7 @@ chatPanel channel messages =
                 ]
 
         messagePanel =
-            column [ padding 10, spacingXY 0 20, scrollbarY ] <|
+            column [ height fill, padding 10, spacingXY 0 20, scrollbarY ] <|
                 List.map messageEntry messages
 
         footer =
